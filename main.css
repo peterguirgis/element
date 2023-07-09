@@ -1,0 +1,244 @@
+body {
+    height: 3000px;
+}
+
+.home {
+    height: 500px;
+    width: 100%;
+    background-image: url(p1.png);
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home .captionhome h1 {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.home .captionhome h3 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.home .captionhome h3 button {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    color: #9a26e2;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.home .captionhome button:hover {
+    background-color: #9a26e2;
+    color: white;
+
+}
+
+.home .captionhome h3 button a {
+    text-decoration: none;
+    color: #9a26e2;
+}
+
+.home .captionhome button:hover a {
+    color: white;
+}
+
+.home .captionhome h3 img {
+    margin-top: 70px;
+}
+
+.about h1,
+p {
+    text-align: center;
+}
+
+.about button {
+    text-align: center;
+    margin-top: 40px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: #9a26e2;
+    color: white;
+    transition: 0.5s;
+}
+
+.about button:hover {
+    background-color: black;
+}
+
+.service {
+    padding-top: 120px;
+    background-color: #f9f7f8;
+}
+
+.service h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.service #row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service #row .icon1 img {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.request {
+    padding-top: 120px;
+}
+
+.request2 {
+    background-color: #3824b7;
+    width: 500px;
+    height: 600px;
+    margin-left: 30px;
+}
+
+.name {
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 50px;
+    width: 420px;
+}
+
+.massage_text {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #807e7e;
+    width: 420px;
+    text-align: start;
+}
+
+.send {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: #9a26e2;
+    color: white;
+    transition: 0.5s;
+}
+
+.send:hover {
+    background-color: white;
+    color: black;
+}
+
+.h1 {
+    margin-left: 200px;
+}
+
+.request #row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.what {
+    padding-top: 120px;
+}
+
+.what h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Consectetur {
+    padding-top: 120px;
+}
+
+.p1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Free {
+    background-color: #9a26e2;
+    padding-top: 120px;
+}
+
+.Free h1 {
+    text-align: center;
+}
+
+.Free .i {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*/////////////////////////////////////////////////////////// */
+
+@media(max-width :1140px) {
+    .about img {
+        width: 700px;
+    }
+
+    .img {
+        width: 300px;
+    }
+
+    .request2 {
+        background-color: #3824b7;
+        width: 300px;
+        height: 600px;
+        margin-left: 30px;
+    }
+
+    .name {
+        height: 50px;
+        width: 240px;
+    }
+
+    .massage_text {
+        width: 240px;
+    }
+
+    .h1 {
+        margin-left: 100px;
+    }
+
+    .send {
+        margin-left: 100px;
+    }
+
+}
+
+@media(max-width :750px) {
+    .about img {
+        width: 420px;
+    }
+
+    .service #row {
+        display: inline-block;
+        justify-content: space-evenly;
+    }
+
+    .request #row {
+        display: inline-block;
+        justify-content: space-evenly;
+    }
+
+    .request2 {
+        background-color: #3824b7;
+        width: 320px;
+        height: 600px;
+        margin-left: 35px;
+    }
+    .img {
+        width: 400px;
+    }
+}
